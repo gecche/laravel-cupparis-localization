@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gecche\\Cupparis\\Localizarion\\LocalizationServiceProvider"
+                "Gecche\\Cupparis\\Localization\\LocalizationServiceProvider"
             ]
         }
     }
