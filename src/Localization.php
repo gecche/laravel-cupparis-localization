@@ -3,6 +3,7 @@
 namespace Gecche\Cupparis\Localization;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 
 class Localization {
 
@@ -47,7 +48,7 @@ class Localization {
             // No, a session locale hasn't been set.
             // Was there a cookie set from a previous visit?
             $mFromCookie = $this->request->cookie( 'lang', null );
-            //$mFromCookie = array_get($_COOKIE,'lang',null);
+            //$mFromCookie = Arr::get($_COOKIE,'lang',null);
 
             if ( $mFromCookie != null && in_array( $mFromCookie, $this->app['config']->get( 'app.langs' ) ) )
             {
