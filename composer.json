@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "laravel/framework": "^11.0",
-        "gecche/laravel-cupparis-helpers": "^11.0"
+        "laravel/framework": "^12.0",
+        "gecche/laravel-cupparis-helpers": "^12.0"
     },
     "require-dev": {
     },
