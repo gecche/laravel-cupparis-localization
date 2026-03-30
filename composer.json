@@ -9,9 +9,15 @@
             "email": "giacomo.terreni@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/gecche/laravel-cupparis-helpers"
+        }
+    ],
     "require": {
-        "laravel/framework": "^12.0",
-        "gecche/laravel-cupparis-helpers": "^12.0"
+        "laravel/framework": "^13.0",
+        "gecche/laravel-cupparis-helpers": "^13.0"
     },
     "require-dev": {
     },
